@@ -1,0 +1,149 @@
+ul,
+li {
+  list-style: none;
+}
+li > img:hover {
+  transform: scale(1.2);
+}
+.lead {
+  width: 100%;
+  margin-top: 50px;
+  background-color: #fff;
+}
+.lead p {
+  font-size: 40px;
+  text-align: center;
+}
+.lead .list {
+  width: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.lead .bottom {
+  border-bottom: red solid 4px;
+}
+.lead .new {
+  float: left;
+  width: 140px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.lead .hot {
+  float: left;
+  width: 140px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+/* 主体样式 */
+.main {
+  background-color: #F7F7F7;
+}
+#new {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+#new > li {
+  float: left;
+  width: 230px;
+  margin: 30px 10px 0px 10px;
+  position: relative;
+  border: 1px #ccc solid;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#new > li p {
+  margin-top: 10px;
+  line-height: 20px;
+  height: 60px;
+}
+#new > li span:nth-of-type(1) {
+  float: right;
+  background: url(../imgs/icons/reply.png) no-repeat 0px 2px;
+  padding-left: 15px;
+  color: red;
+  width: 20px;
+}
+#new > li span:nth-of-type(2) {
+  float: right;
+  width: 20px;
+  margin-left: 10px;
+  background: url(../imgs/icons/xin.png) no-repeat 0px 2px;
+  padding-left: 15px;
+  color: red;
+}
+#hot {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+#hot > li {
+  float: left;
+  width: 230px;
+  margin: 30px 10px 0px 10px;
+  position: relative;
+  border: 1px #ccc solid;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#hot > li p {
+  margin-top: 10px;
+  line-height: 20px;
+  height: 60px;
+}
+#hot > li span:nth-of-type(1) {
+  float: right;
+  background: url(../imgs/icons/reply.png) no-repeat 0px 2px;
+  padding-left: 15px;
+  color: red;
+  width: 20px;
+}
+#hot > li span:nth-of-type(2) {
+  float: right;
+  width: 20px;
+  margin-left: 10px;
+  background: url(../imgs/icons/xin.png) no-repeat 0px 2px;
+  padding-left: 15px;
+  color: red;
+}
+.new_more {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.new_more > li {
+  float: left;
+  width: 230px;
+  margin: 30px 10px 0px 10px;
+  position: relative;
+  border: 1px #ccc solid;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.new_more > li p {
+  margin-top: 10px;
+  line-height: 20px;
+  height: 60px;
+}
+.new_more > li span:nth-of-type(1) {
+  float: right;
+  background: url(../imgs/icons/reply.png) no-repeat 0px 2px;
+  padding-left: 15px;
+  color: red;
+  width: 20px;
+}
+.new_more > li span:nth-of-type(2) {
+  float: right;
+  width: 20px;
+  margin-left: 10px;
+  background: url(../imgs/icons/xin.png) no-repeat 0px 2px;
+  padding-left: 15px;
+  color: red;
+}

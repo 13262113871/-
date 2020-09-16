@@ -1,0 +1,47 @@
+[
+    {
+        "img": "./image/img/bg8.jpg",
+        "text": "空气净化器里面学问多得惊呆你，你选对了吗?",
+        "uName": "土豆",
+        "endTime": "2016-8-28",
+        "totalnum": 3,
+        "num": 3,
+        "apply": 1392
+    },
+    {
+        "img": "./image/img/bg7.jpg",
+        "text": "云马智行车C1小巧清新，简洁流畅的线条为城市骑行增添一抹亮丽色彩",
+        "uName": "土豆",
+        "endTime": "2016-8-27",
+        "totalnum": 3,
+        "num": 20,
+        "apply": 1392
+    },
+    {
+        "img": "./image/img/bg6.jpg",
+        "text": "声音最优秀,足够打动人心:云马C1音响体验",
+        "uName": "土豆",
+        "endTime": "2016-2-26",
+        "totalnum": 5,
+        "num": 20,
+        "apply": 1392
+    },
+    {
+        "img": "./image/img/bg4.jpg",
+        "text": "声音不是最优秀，但它形音完美的结合，足够打动人心",
+        "uName": "打酱油",
+        "endTime": "2016-8-24",
+        "totalnum": 6,
+        "num": 20,
+        "apply": 1392
+    },
+    {
+        "img": "./image/img/bg5.jpg",
+        "text": "内在与颜值并重，MO智能体质分析仪解开你的身体密码",
+        "uName": "打酱油",
+        "endTime": "2016-7-23",
+        "totalnum": 2032,
+        "num": 20,
+        "apply": 1392
+    }
+]

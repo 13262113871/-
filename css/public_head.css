@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a { text-decoration: none;}
+
+/* 头部 */
+.clearfix::before,.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+/* .clearfix {
+    *zoom: 1;
+} */
+.head_total {
+    width: 100%;
+    background-color: #fff;
+    border: 3px solid #ebebeb;
+    border-top: 0px ;
+    box-sizing: border-box;
+}
+.head_main {
+    width: 1000px;
+    height: 75px;
+    margin: 0 auto;
+}
+.head_img {
+    float: left;
+}
+.head_img img {
+    margin-top: 11px;
+    width: 132px;
+    height: 52px;
+}
+.head_main ul {
+    list-style: none;
+    padding-top: 30px;
+}
+.head_main ul li {
+    float: left;
+    margin-right: 51px;
+}
+.head_main ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #272733;
+}
+.head_main .head_li {
+    margin-left: 65px;
+}
+.head_main .head_register,.head_login {
+    float: right;
+    width: 52px;
+    height: 32px; 
+    font-size: 15px;
+    background-color: #fff;
+    color: #fa553f;
+    border: 2px solid #fa553f;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    /* display: inline-block; */
+    margin-top: -5px;
+}
+#clicked {
+    color: #ff664d;
+}
+.head_register {padding: 4px 0 0 10px;}
+.head_login {padding: 4px 0 0 10px;}
+.head_main .head_login {
+    margin-left: 35px;
+    margin-right: 10px;
+}
+.head_main .head_question {
+    float: right;
+    width: 24px;
+    height: 26px;
+    background: url('../image/icon/search.png') no-repeat center center;
+}
+
+/* 登录页面 -----------------------------------*/
+.login_zz{width: 100%; height: 100%; position: fixed; background:rgba(0,0,0,.6); z-index: 4; opacity: 0.4;}
+.login {
+    border: 1px solid #cccccc;
+    width: 800px;
+    height: 400px;
+    /* margin: 0 auto; */
+    border-radius: 8px;
+    background-color: #fff;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    overflow: hidden;
+}
+.login_left {
+    float: left;
+    width: 460px;
+    height: 400px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+    box-sizing: border-box;
+}
+.login_left h2 {
+    font-size: 24px;
+    color: #444;
+}
+
+#phone {
+    width: 430px;
+    height: 50px;
+    text-indent: 3em;
+    margin-top: 50px;
+    outline: none;
+    border: solid 1px #888;
+    background: url(../image/icon/phone.png) no-repeat -6px 0px;
+}
+
+#password {
+    width: 430px;
+    height: 50px;
+    text-indent: 3em;
+    margin-top: 20px;
+    outline: none;
+    border: solid 1px #888;
+    background: url(../image/icon/pass.png) no-repeat -4px 0px;
+}
+
+#checkbox {
+    margin-top: 50px;
+}
+
+span {
+    color: #888;
+}
+
+#login {
+    width: 210px;
+    height: 50px;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    position: relative;
+    left: 110px;
+    outline: none;
+}
+
+.rember {
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.rember>a:first-child {
+    color: #888;
+}
+
+.rember>a:last-child {
+    float: right;
+    color: #888;
+    position: relative;
+    right: 125px;
+}
+
+.rember>a:hover {
+    color: orange;
+}
+
+.login_right {
+    float: right;
+    width: 330px;
+    height: 400px;
+    /* overflow: hidden; */
+    position: relative;
+    left: 40px;
+    top: 40px;
+    box-sizing: border-box;
+}
+.login_right h3 {
+    font-size: 18px;
+    color: #444;
+    margin-top: 5px;
+}
+
+#closd {
+    float: right;
+    margin-right: 50px;
+    position: absolute;
+    top: -15px;
+    right: 10px;
+}
+
+.weixin {
+    margin-top: 50px
+}
+
+.fenxiang {
+    width: 210px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.weibo {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../image/icon/weibo.png) no-repeat 0px 0px;
+    padding-left: 50px;
+    padding-top: 5px;
+    color: #888;
+}
+.qq{
+    float: right;
+    width: 50px;
+    height: 50px;
+    background: url(../image/icon/qq.png) no-repeat 0px 0px;
+    padding-left: 36px;
+    padding-top: 5px;
+    color: #888;
+}
+
+
+/* 尾部 --------------------------------------*/
+.clearfix::before,.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.footer_total {
+    background-color: #505050;
+}
+.footer_total .footer_main {
+    padding-top: 40px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.footer_erweima {
+    float: left;
+    width: 160px;
+    height: 160px;
+    margin-right: 22px;
+}
+.footer_nav>dl {
+    float: left;
+    margin-right: 30px;
+}
+.footer_nav>dl>dt>img {
+    width: 122px;
+    height: 46px;
+}
+.footer_nav>dl>dt {
+    margin-bottom: 25px;
+    font-size: 15px;
+    color: #ffffed;
+}
+.footer_nav>dl a {
+    text-decoration: none;
+    color: #a4b2b5;
+    font-size: 12px;
+}
+.footer_nav>dl a:hover{
+    color: orange;
+}
+dd.footer_jian {
+    margin-bottom: 10px;
+}
+.footer_nav .footer_dl_1 {
+    margin-right: 6px;
+}
+.footer_nav>.footer_dl_2 {
+    margin-top: 44px;
+}
+.footer_total>.footer_btm {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    font-size: 10px;
+    color: #a4b2b5;
+}
+.footer_total>.footer_return {
+    position: fixed;
+    right: 120px;
+    bottom: 59px;
+    width: 42px;
+    height: 42px;
+    display: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: url('../image/icon/back.png') no-repeat center center;
+    background-color: #e8e8e8;
+}
+/* 加载更多 */
+.main_more {
+    margin: 0 auto;
+    padding: 34px 0px 54px 0px;
+    width: 1000px;
+    text-align: center;
+}
+.main_more>.nomain_loading {
+    color: #ff5a25;
+    cursor: pointer;
+    background: url('./../image/icon/more.png') no-repeat 430px center;
+}
+.main_more>.main_loading {
+    color: #ff5a25;
+    cursor: pointer;
+    background: url('./../image/icon/loading-icon.gif') no-repeat 430px center;
+}

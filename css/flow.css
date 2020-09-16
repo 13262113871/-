@@ -1,0 +1,289 @@
+.main_flowOne {
+  padding-top: 25px;
+  background-color: #f0f0f0;
+}
+.main_flowOne .main_flowOne_div {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.main_flowOne .main_flowOne_div span {
+  font-size: 18px;
+  float: left;
+  border-left: 3px solid #fe5340;
+  margin-right: 80px;
+  padding-left: 5px;
+}
+.main_flowOne .main_flowOne_div ul {
+  overflow: hidden;
+  list-style: none;
+  height: 80px;
+}
+.main_flowOne .main_flowOne_div ul li {
+  font-size: 12px;
+  color: #525252;
+  height: 50px;
+  float: left;
+  margin-right: 120px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  background-position: 6px 0;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+.main_flowOne .main_flowOne_div ul li:nth-child(1) {
+  background-image: url(../image/icon/use1.png);
+  border-bottom: 2px solid #fe5340;
+}
+.main_flowOne .main_flowOne_div ul li:nth-child(2) {
+  background-image: url(../image/icon/use2.png);
+}
+.main_flowOne .main_flowOne_div ul li:nth-child(3) {
+  background-image: url(../image/icon/use3.png);
+}
+.main_flowOne .main_flowOne_div ul li:nth-child(4) {
+  background-image: url(../image/icon/use4.png);
+}
+.main_flowOne .main_flowOne_div ul li:nth-child(5) {
+  background-image: url(../image/icon/use5.png);
+  margin-right: 0;
+}
+.mid_main_body {
+  background-color: #ffff;
+}
+.mid_main {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.mid_main .mid_main_lf {
+  width: 700px;
+  float: left;
+}
+.mid_main .mid_main_lf .mid_main_lfDiv span {
+  color: black;
+  font-size: 15px;
+  display: inline-block;
+}
+.mid_main .mid_main_lf .mid_main_lfDiv span:nth-child(1) {
+  font-size: 16px;
+  border-left: 3px solid #f8572b;
+  padding-left: 25px;
+}
+.mid_main .mid_main_lf .mid_main_lfDiv p:nth-child(2) {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ff0c00;
+  margin: 15px 0 20px 0;
+}
+.mid_main .mid_main_lf .mid_main_lfDiv span:nth-child(3) {
+  margin-bottom: 20px;
+  color: #525252;
+}
+.mid_main .mid_main_lf .mid_main_lfDiv div:nth-child(5) {
+  margin-bottom: 20px;
+}
+.mid_main .mid_main_lf .mid_main_lfDiv div:nth-child(5) p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1062ae;
+  margin: 15px 0 20px 0;
+}
+.mid_main .mid_main_lf .mid_main_lfDiv div:nth-child(5) span {
+  color: black;
+  font-size: 15px;
+}
+.mid_main .mid_main_lf .mid_main_lfDiv div:nth-child(5) img {
+  margin: 25px 0;
+}
+.mid_main .mid_main_lf .mid_main_lfDiv span:nth-child(6) {
+  font-size: 18px;
+  border-left: 3px solid #f8572b;
+  padding-left: 25px;
+}
+.mid_main .mid_main_lf .mid_main_lfDiv p:nth-child(7) {
+  font-size: 15px;
+  margin: 20px 0;
+}
+.mid_main .mid_main_lf .mid_main_lfDiv span:nth-child(8) {
+  color: #2881a6;
+  margin-bottom: 20px;
+}
+.mid_main .mid_main_lf .mid_main_lfDiv span:nth-child(10) {
+  color: red;
+  margin-bottom: 5px;
+}
+.mid_main .mid_main_lf .mid_main_lfDiv span:nth-child(14) {
+  color: red;
+  margin: 20px 0 5px 0;
+}
+.mid_main .mid_main_lf .mid_main_lfTwo {
+  border: 1px solid #ddd;
+  width: 700px;
+  height: 50px;
+  margin: 15px 0;
+  border-radius: 8px;
+  position: relative;
+}
+.mid_main .mid_main_lf .mid_main_lfTwo span {
+  font-size: 13px;
+  color: #5e5d5d;
+  line-height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mid_main .mid_main_rg {
+  width: 275px;
+  float: left;
+  margin-left: 20px;
+}
+.mid_main .mid_main_rg .mid_main_rgTop span:nth-child(1) {
+  font-size: 16px;
+  border-left: 3px solid #f8572b;
+  padding-left: 25px;
+  color: black;
+}
+.mid_main .mid_main_rg .mid_main_rgTop h1 {
+  font-size: 33px;
+  color: #f8572b;
+  margin: 20px 0;
+}
+.mid_main .mid_main_rg .mid_main_rgTop button {
+  width: 275px;
+  height: 45px;
+  color: #fff;
+  background-color: #f8572b;
+  border: 0;
+  border-radius: 10px;
+}
+.mid_main .mid_main_rg .mid_main_rgTop span:nth-of-type(2) {
+  font-size: 12px;
+  display: inline-block;
+  margin: 10px 110px;
+}
+.mid_main .mid_main_rg .mid_main_rgOne span {
+  font-size: 12px;
+  color: #aeaba4;
+}
+.mid_main .mid_main_rg .mid_main_rgOne span:nth-of-type(1) {
+  font-size: 16px;
+  border-left: 3px solid #f8572b;
+  padding-left: 25px;
+  color: black;
+}
+.mid_main .mid_main_rg .mid_main_rgOne img {
+  margin-top: 15px;
+}
+.mid_main .mid_main_rg .mid_main_rgOne p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+.mid_main .mid_main_rg .mid_main_rgTwo {
+  margin-top: 50px;
+}
+.mid_main .mid_main_rg .mid_main_rgTwo p {
+  font-size: 16px;
+  border-left: 3px solid #f8572b;
+  padding-left: 25px;
+  color: black;
+}
+.mid_main .mid_main_rg .mid_main_rgTwo div {
+  border-radius: 8px;
+  background-color: #ebebeb;
+  overflow: hidden;
+}
+.mid_main .mid_main_rg .mid_main_rgTwo div img {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  float: left;
+}
+.mid_main .mid_main_rg .mid_main_rgTwo div span {
+  font-size: 14px;
+  color: #aeaba4;
+  float: left;
+}
+.mid_main .mid_main_rg .mid_main_rgTwo div span:nth-of-type(1) {
+  margin: 40px 0 0 50px;
+}
+.mid_main .mid_main_rg .mid_main_rgTwo div span:nth-of-type(2) {
+  margin-left: 40px;
+}
+#flow_1 {
+  list-style: none;
+  width: 1000px;
+  overflow: hidden;
+}
+#flow_1>li {
+  position: relative;
+  float: left;
+  margin-right: 37px;
+  margin-bottom: 36px;
+  border: 2px solid #e6e6e6;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 222px;
+  height: 288px;
+  text-align: center;
+}
+#flow_1>li>a>.free_img_1 {
+  height: 130px;
+  width: 218px;
+}
+#flow_1>li>.free_p1 {
+  margin-top: 9px;
+  height: 44px;
+  font-size: 17px;
+  font-weight: 700;
+}
+#flow_1>li>.free_p1>a {
+  text-decoration: none;
+  color: #292327;
+}
+#flow_1>li>div>a {
+  display: inline-block;
+  margin: 4px 6px;
+  text-decoration: none;
+  padding: 7px 9px;
+  font-size: 9px;
+  font-weight: 700;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+}
+#flow_1>li>span {
+  color: #ff6072;
+}
+#flow_1>li>.free_p2 {
+  margin-top: 8px;
+  font-size: 12px;
+}
+#flow_1>li>.free_p2>span {
+  color: #ff6072;
+}
+#flow_1>li>.free_span_1 {
+  margin-top: 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+#flow_1>li>.free_img_2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#flow_1 li:nth-of-type(4n+4) {
+  margin-right: 0px;
+}
+.flow_p_1 {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #474a4f;
+  font-weight: 700;
+}

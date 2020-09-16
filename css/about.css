@@ -1,0 +1,140 @@
+/* 样式重置 */
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.main {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 50px;
+  /* 商务合作 */
+}
+.main .left {
+  width: 270px;
+  height: 320px;
+  background-color: #F3F3F3;
+  box-sizing: border-box;
+  float: left;
+}
+.main .left h2 {
+  margin-top: 35px;
+  margin-left: 40px;
+}
+.main .left .help_line {
+  width: 230px;
+  height: 1px;
+  background-color: #222;
+  position: relative;
+  left: 20px;
+  margin-top: 5px;
+}
+.main .left .hz {
+  margin-left: 40px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.main .left .left_one {
+  position: relative;
+  left: 60px;
+}
+.main .left .left_one > li {
+  line-height: 30px;
+}
+.main .left .left_one > li > a {
+  color: #222;
+}
+.main .left .mf {
+  margin-left: 40px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.main .left ul > li > a:hover {
+  color: orange;
+}
+.main .right {
+  width: 700px;
+  background-color: #F3F3F3;
+  box-sizing: border-box;
+  float: right;
+  /* 免费试用 */
+}
+.main .right .r_main1 {
+  width: 630px;
+  margin: 0 auto;
+  display: none;
+}
+.main .right .r_main1 h2:nth-of-type(1) {
+  margin-top: 38px;
+}
+.main .right .r_main1 .hz_line {
+  width: 625px;
+  height: 1px;
+  margin-top: 4px;
+  background-color: #222222;
+}
+.main .right .r_main1 h4:nth-of-type(1) {
+  margin-top: 30px;
+}
+.main .right .r_main1 h4:nth-of-type(2),
+.main .right .r_main1 h4:nth-of-type(3) {
+  margin-top: 65px;
+}
+.main .right .r_main1 p {
+  line-height: 30px;
+}
+.main .right .r_main1 p:nth-of-type(1) {
+  margin-top: 30px;
+}
+.main .right .r_main1 p:nth-of-type(2) {
+  margin-top: 30px;
+}
+.main .right .r_main1 h2:nth-of-type(2) {
+  margin-top: 65px;
+}
+.main .right .r_main1 .zlhz {
+  margin: 30px 0px 30px 20px;
+}
+.main .right .r_main1 .zlhz p {
+  margin-top: 0px;
+}
+.main .right .r2_main {
+  width: 630px;
+  margin: 0 auto;
+}
+.main .right .r2_main h2:nth-of-type(1) {
+  margin-top: 38px;
+}
+.main .right .r2_main .mfsy_line {
+  width: 625px;
+  height: 1px;
+  margin-top: 4px;
+  background-color: #222222;
+}
+.main .right .r2_main h4:nth-of-type(1) {
+  margin-top: 30px;
+}
+.main .right .r2_main p {
+  line-height: 30px;
+}
+.main .right .r2_main p:nth-of-type(1) {
+  margin-top: 30px;
+}
+.main .right .r2_main h4:nth-of-type(2) {
+  margin-top: 60px;
+}
+.main .right .r2_main .sy {
+  margin-top: 30px;
+}
+.main .right .r2_main h4:nth-of-type(3) {
+  margin-top: 60px;
+}
+.main .right .r2_main .tg {
+  margin-top: 30px;
+}
+.main .right .r2_main .plast {
+  margin-bottom: 60px;
+}

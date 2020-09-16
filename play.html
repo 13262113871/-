@@ -1,0 +1,499 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-09-14 08:10:21
+ * @LastEditTime: 2020-09-14 14:42:50
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \VS_Codec:\Users\Administrator\Desktop\jia\public_footer.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>酷玩</title>
+    
+    <link rel="stylesheet" href="./css/play.css">
+    <link rel="stylesheet" href="./css/public_head.css">
+    <script src="js/jquery-3.5.1.js"></script>
+</head>
+<body>
+    <!-- 遮盖 -->
+    <div class="login_zz" hidden></div>
+    <!-- 网页头部~  -->
+    <header class="head_total">
+        <div class="head_main clearfix">
+            <div class="head_img"><a href="index.html"><img src="./image/img/logonew.png" alt="#"></a></div>
+            <ul>
+                <li class="head_li"><a href="./index.html">首页</a></li>
+                <li><a href="./play.html" id="clicked">酷玩</a></li>
+                <li><a href="./guid.html">导购</a></li>
+                <li><a href="./help.html">试用</a></li>
+                <li><a href="./report.html">报告</a></li>
+            </ul>
+            <a href="regist.html" class="head_register">注册<a>
+            <a href="#" class="head_login">登录</a>
+            <div class="head_question"></div>
+            <!-- 登录弹出窗 -->
+            <div class="login" hidden>
+                <div class="login_left">
+                    <h2>
+                        极果账号登录
+                    </h2>
+                    <input id="phone" type="text" placeholder="手机号码" autocomplete="off">
+                    <input id="password" type="password" placeholder="密码">
+                    <div>
+                        <input type="checkbox" id="checkbox"><span>下次自动登录</span>
+                        <button id="login">登录</button>
+                    </div>
+                    <div class="rember">
+                        <a href="regist.html">注册新账号</a>
+                        <a href="#">忘记密码？</a>
+                    </div>
+                </div>
+                <div class="login_right">
+                    <img id="closd" src="./image/icon/clos.png" alt="">
+                    <h3>社交网络账号登录</h3>
+                    <img class="weixin" src="./image/icon/weixin_code.png" alt="">
+                    <div class="fenxiang">
+                        <a href="#" class="weibo">微博</a>
+                        <a href="#" class="qq">QQ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 网页中部 -->
+    <section>
+    <!-- 发现酷玩 -->
+    <div class="cool">
+        <p>发现酷玩</p>
+        <div class="list">
+            <!-- bottom类名控制下边框 -->
+            <div class="new bottom">最新</div>
+            <div class="hot">最热</div>
+            <div class="sort">品类</div>
+        </div>
+    </div>
+    <!-- 网页主体 -->
+    <div class="main">
+        <!-- 版心展示区域 -->
+        <div class="new_ul">
+            <!-- 最新数据展示区域 -->
+            <div class="one">
+                <div class="new_one"></div>
+                <div class="new_two"></div>
+                <div class="new_more"></div>
+            </div>
+            <!-- 最热数据展示区域 -->
+            <div class="two">
+                <div class="hot_one"></div>
+                <div class="hot_two"></div>
+            </div>
+            <!-- 品类数据展示区域 -->
+            <div class="there">
+                <!-- 生活 -->
+                <div class="live">
+                    <p class="live_title">生活</p>
+                    <div class="live_a">
+                        <ul>
+                            <li>
+                                <img src="./image/img/cat_1.png" alt="">
+                                <p>空气净化器(21)</p>
+                            </li>
+                            <li>
+                                <img src="./image/img/cat_2.png" alt="">
+                                <p>吸尘器(21)</p>
+                            </li>
+                            <li>
+                                <img src="./image/img/cat_3.png" alt="">
+                                <p>扫地机器人(21)</p>
+                            </li>
+                            <li>
+                                <img src="./image/img/cat_4.png" alt="">
+                                <p>电风扇(21)</p>
+                            </li>
+                            <li>
+                                <img src="./image/img/cat_5.png" alt="">
+                                <p>净水壶(21)</p>
+                            </li>
+                            <li>
+                                <img src="./image/img/cat_6.png" alt="">
+                                <p>电饭煲(21)</p>
+                            </li>
+                            <li>
+                                <img src="./image/img/cat_7.png" alt="">
+                                <p>咖啡机(21)</p>
+                            </li>
+                            <li class="live_last">
+                                <img src="./image/img/cat_8.png" alt="">
+                                <p>咖啡机(21)</p>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="live_b">
+                        <ul>
+                            <li>电视(21)</li>
+                            <li>空调(21)</li>
+                            <li>洗衣机(21)</li>
+                            <li>加湿器(21)</li>
+                            <li>净水壶(21)</li>
+                            <li>热水器(21)</li>
+                            <li>咖啡机(21)</li>
+                            <li>原汁机(21)</li>
+                            <li>消毒/洗碗机(21)</li>
+                            <li>豆浆机(21)</li>
+                            <li>扫地机器人(21)</li>
+                            <li>电风扇(21)</li>
+                            <li>除湿机(21)</li>
+                            <li>干燥机(21)</li>
+                            <li>取暖器(21)</li>
+                            <li>原汁机(21)</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 个人护理 -->
+                <div class="care">
+                    <p class="care_title">个人护理</p>
+                    <div class="care_a">
+                        <ul >
+                            <li>
+                                <img src="./image/img/cat_9.png" alt="">
+                                <p>电动牙刷(21)</p>
+                            </li>
+                            <li>
+                                <img src="./image/img/cat_10.png" alt="">
+                                <p>剃须刀(21)</p>
+                            </li>
+                            <li>
+                                <img src="./image/img/cat_11.png" alt="">
+                                <p>按摩器(21)</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="care_b">
+                        <ul>
+                            <li>冲牙器(21)</li>
+                            <li>洁面仪(21)</li>
+                            <li>蒸面器(21)</li>
+                            <li>加湿器(21)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 健康 -->
+                <div class="jk">
+                    <p class="jk_title">健康</p>
+                    <div class="jk_a">
+                        <ul class="jiankang" >
+                            <li>
+                                <img src="./image/img/cat_1.png" alt="">
+                                <p>电动牙刷(21)</p>
+                            </li>
+                            <li>
+                                <img src="./image/img/cat_2.png" alt="">
+                                <p>剃须刀(21)</p>
+                            </li>
+                            <li>
+                                <img src="./image/img/cat_3.png" alt="">
+                                <p>按摩器(21)</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="jk_b">
+                        <ul>
+                            <li>冲牙器(21)</li>
+                            <li>洁面仪(21)</li>
+                            <li>蒸面器(21)</li>
+                            <li>加湿器(21)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 智能穿戴 -->
+                <div class="zn">
+                    <p class="zn_title">智能穿戴</p>
+                  <div class="zn_a">
+                    <ul>
+                        <li>
+                            <img src="./image/img/cat_1.png" alt="">
+                            <p>空气净化器(21)</p>
+                        </li>
+                        <li>
+                            <img src="./image/img/cat_2.png" alt="">
+                            <p>吸尘器(21)</p>
+                        </li>
+                        <li>
+                            <img src="./image/img/cat_3.png" alt="">
+                            <p>扫地机器人(21)</p>
+                        </li>
+                        <li>
+                            <img src="./image/img/cat_4.png" alt="">
+                            <p>电风扇(21)</p>
+                        </li>
+                        <li>
+                            <img src="./image/img/cat_5.png" alt="">
+                            <p>净水壶(21)</p>
+                        </li>
+                        <li>
+                            <img src="./image/img/cat_6.png" alt="">
+                            <p>电饭煲(21)</p>
+                        </li>
+                    </ul>
+                     </div>
+                    <div class="zn_b">
+                        <ul>
+                            <li>冲牙器(21)</li>
+                            <li>洁面仪(21)</li>
+                            <li>蒸面器(21)</li>
+                            <li>加湿器(21)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 出行 -->
+                <div class="jk">
+                    <p class="jk_title">出行</p>
+                    <div class="jk_a">
+                        <ul class="jiankang" >
+                            <li>
+                                <img src="./image/img/cat_1.png" alt="">
+                                <p>电动牙刷(21)</p>
+                            </li>
+                            <li>
+                                <img src="./image/img/cat_2.png" alt="">
+                                <p>剃须刀(21)</p>
+                            </li>
+                            <li>
+                                <img src="./image/img/cat_3.png" alt="">
+                                <p>按摩器(21)</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="jk_b">
+                        <ul>
+                            <li>冲牙器(21)</li>
+                            <li>洁面仪(21)</li>
+                            <li>蒸面器(21)</li>
+                            <li>加湿器(21)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 运动户外 -->
+                <div class="care">
+                    <p class="care_title">运动户外</p>
+                    <div class="care_a">
+                        <ul >
+                            <li>
+                                <img src="./image/img/cat_9.png" alt="">
+                                <p>电动牙刷(21)</p>
+                            </li>
+                            <li>
+                                <img src="./image/img/cat_10.png" alt="">
+                                <p>剃须刀(21)</p>
+                            </li>
+                            <li>
+                                <img src="./image/img/cat_11.png" alt="">
+                                <p>按摩器(21)</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="care_b">
+                        <ul>
+                            <li>冲牙器(21)</li>
+                            <li>洁面仪(21)</li>
+                            <li>蒸面器(21)</li>
+                            <li>加湿器(21)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 摄影 -->
+                <div class="jk">
+                    <p class="jk_title">摄影</p>
+                    <div class="jk_a">
+                        <ul class="jiankang" >
+                            <li>
+                                <img src="./image/img/cat_1.png" alt="">
+                                <p>电动牙刷(21)</p>
+                            </li>
+                            <li>
+                                <img src="./image/img/cat_2.png" alt="">
+                                <p>剃须刀(21)</p>
+                            </li>
+                            <li>
+                                <img src="./image/img/cat_3.png" alt="">
+                                <p>按摩器(21)</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="jk_b">
+                        <ul>
+                            <li>冲牙器(21)</li>
+                            <li>洁面仪(21)</li>
+                            <li>蒸面器(21)</li>
+                            <li>加湿器(21)</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 手机 -->
+                <div class="jk">
+                    <p class="jk_title">手机</p>
+                    <div class="jk_a">
+                        <ul class="jiankang" >
+                            <li>
+                                <img src="./image/img/cat_1.png" alt="">
+                                <p>电动牙刷(21)</p>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                    <div class="jk_b">
+                        <ul>
+                            <li>冲牙器(21)</li>
+                            <li>洁面仪(21)</li>
+                            <li>蒸面器(21)</li>
+                            <li>加湿器(21)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main_more">
+        <p class="nomain_loading">点击加载更多</p> 
+     </div>   
+        
+    </section>
+    <!-- 网页底部 -->
+    <footer class="footer_total">
+        <div class="footer_main clearfix">
+            <div class="footer_picture">
+                <img src="./image/img/code.png" alt="#" class="footer_erweima">
+            </div>
+            <div class="footer_nav">
+                <dl>
+                    <dt><img src="./image/img/logoImg.jpg" alt="#"></dt>
+                    <dd><a href="#">全球酷玩试用导购平台</a></dd>
+                    <dd class="footer_jian"><a href="#">酷·新奇·好玩·品质</a></dd>
+                    <dd><a href="#">微信添加"JguoJguo"</a></dd>
+                    <dd><a href="#">获取我们的服务</a></dd>
+                </dl>
+                <dl>
+                    <dt>免费试用</dt>
+                    <dd><a href="#">试用流程</a></dd>
+                    <dd><a href="#">如何提高成功率</a></dd>
+                </dl>
+                <dl class="footer_dl_1">
+                    <dt>友情链接</dt>
+                    <dd><a href="#">智东西</a></dd>
+                    <dd><a href="#">搜狐IT</a></dd>
+                    <dd><a href="#">搜狐数码</a></dd>
+                    <dd><a href="#">凤凰数码</a></dd>
+                    <dd><a href="#">泡泡网</a></dd>
+                    <dd><a href="#">ZUK社区</a></dd>
+                    <dd><a href="#">极客公园</a></dd>
+                    <dd><a href="#">果库</a></dd>
+                </dl>
+                <dl class="footer_dl_2">
+                    <dd><a href="#">WEIBUSI</a></dd>
+                    <dd><a href="#">腾讯科技</a></dd>
+                    <dd><a href="#">凤凰科技</a></dd>
+                    <dd><a href="#">PConline</a></dd>
+                    <dd><a href="#">3W咖啡</a></dd>
+                    <dd><a href="#">亿觅emie</a></dd>
+                    <dd><a href="#">易迅易启玩</a></dd>
+                </dl>
+                <dl>
+                    <dt>购买攻略</dt>
+                    <dd><a href="#">美亚海淘教程</a></dd>
+                    <dd><a href="#">日亚海淘教程</a></dd>
+                    <dd><a href="#">海淘转运攻略</a></dd>
+                    <dd><a href="#">kickstarter众筹购买攻略</a></dd>
+                    <dd><a href="#">indiegogo众筹购买攻略</a></dd>
+                </dl>
+                <dl>
+                    <dt>厂商合作</dt>
+                    <dd><a href="./about.html">关于极果</a></dd>
+                    <dd><a href="./about.html">联系我们</a></dd>
+                    <dd><a href="./about.html">商务合作：BD@jiguo.com</a></dd>
+                    <dd><a href="./about.html">CEO邮箱：CED@jiguo.com</a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="footer_btm">
+            &copy:2016 极果版权所有
+        </div>
+        <div class="footer_return">
+
+        </div>
+    </footer>
+    <!-- 最新模板 -->
+    <script src="./js/doT.min.js"></script>
+    <script id="newone" type="text/x-dot-template">
+        {{~it:value:index}} 
+    <li>
+        <img src="{{=value.img}}" width="225px" height="130px">
+        <p class="title">{{=value.text}}</p>
+        <span class="price">{{=value.price}}</span>
+        <span class="words">{{=value.words}}</span>
+        <span class="like">{{=value.like}}</span>
+    </li>
+    {{~}} 
+</script>
+    <script id="newtwo" type="text/x-dot-template">
+        {{~it:value:index}} 
+    <li>
+        <img src="{{=value.img}}" width="225px" height="130px">
+        <p class="title">{{=value.text}}</p>
+        <span class="price">{{=value.price}}</span>
+        <span class="words">{{=value.words}}</span>
+        <span class="like">{{=value.like}}</span>
+    </li>
+    {{~}} 
+</script>
+
+    <!-- 最热模板 -->
+    <script id="hotone" type="text/x-dot-template">
+        {{~it:value:index}} 
+    <li>
+        <img src="{{=value.img}}" width="225px" height="130px">
+        <p class="title">{{=value.text}}</p>
+        <span class="price">{{=value.price}}</span>
+        <span class="words">{{=value.words}}</span>
+        <span class="like">{{=value.like}}</span>
+    </li>
+    {{~}} 
+</script>
+ <script id="hottwo" type="text/x-dot-template">
+        {{~it:value:index}} 
+    <li>
+        <img src="{{=value.img}}" width="225px" height="130px">
+        <p class="title">{{=value.text}}</p>
+        <span class="price">{{=value.price}}</span>
+        <span class="words">{{=value.words}}</span>
+        <span class="like">{{=value.like}}</span>
+    </li>
+    {{~}} 
+</script>
+<script id="hotmore" type="text/x-dot-template">
+    {{~it:value:index}} 
+<li>
+    <img src="{{=value.img}}" width="225px" height="130px">
+    <p class="title">{{=value.text}}</p>
+    <span class="price">{{=value.price}}</span>
+    <span class="words">{{=value.words}}</span>
+    <span class="like">{{=value.like}}</span>
+</li>
+{{~}} 
+</script>
+    <script src="./js/public_head.js"></script>
+    <script src="./js/adress.js"></script>
+    <script src="./js/play.js"></script>
+</body>
+
+</html>

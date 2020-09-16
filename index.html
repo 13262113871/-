@@ -1,0 +1,515 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-09-14 08:10:21
+ * @LastEditTime: 2020-09-14 14:42:50
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \VS_Codec:\Users\Administrator\Desktop\jia\public_footer.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/public_head.css">
+    <script src="js/jquery-3.5.1.js"></script>
+</head>
+
+<body>
+    <!-- 遮盖 -->
+    <div class="login_zz" hidden></div>
+    <!-- 网页头部~  -->
+    <header class="head_total">
+        <div class="head_main clearfix">
+            <div class="head_img"><a href="./index.html"><img src="./image/img/logonew.png" alt="#"></a></div>
+            <ul>
+                <li class="head_li"><a href="./index.html" id="clicked">首页</a></li>
+                <li><a href="./play.html">酷玩</a></li>
+                <li><a href="./guid.html">导购</a></li>
+                <li><a href="./help.html">试用</a></li>
+                <li><a href="./report.html">报告</a></li>
+            </ul>
+            <a href="regist.html" class="head_register">注册<a>
+            <a href="#" class="head_login">登录</a>
+            <div class="head_question"></div>
+            <!-- 登录弹出窗 -->
+            <div class="login" hidden>
+                <div class="login_left">
+                    <h2>
+                        极果账号登录
+                    </h2>
+                    <input id="phone" type="text" placeholder="手机号码" autocomplete="off">
+                    <input id="password" type="password" placeholder="密码">
+                    <div>
+                        <input type="checkbox" id="checkbox"><span>下次自动登录</span>
+                        <button id="login">登录</button>
+                    </div>
+                    <div class="rember">
+                        <a href="regist.html">注册新账号</a>
+                        <a href="#">忘记密码？</a>
+                    </div>
+                </div>
+                <div class="login_right">
+                    <img id="closd" src="./image/icon/clos.png" alt="">
+                    <h3>社交网络账号登录</h3>
+                    <img class="weixin" src="./image/icon/weixin_code.png" alt="">
+                    <div class="fenxiang">
+                        <a href="#" class="weibo">微博</a>
+                        <a href="#" class="qq">QQ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 网页中部 -->
+    <section>
+
+        <div class="main_first clearfix">
+            <div class="main_first_1">
+                <div class="main_first_2 clearfix">
+                    <p class="say_">幻响小贝HiFi2.1音箱</p>
+                    <div class="say_1 clearfix">
+                        <a href="#">126人申请</a>
+                        <a href="#">￥599</a>
+                        <a href="#">20台</a>
+                    </div>
+                    <div class="say_3">申请时间剩余：13天5小时37分钟</div>
+                    <div class="say_4"><input type="submit" value="立即申请"></div>
+                </div>
+            </div>
+       </div>
+    
+       <div class="main_second">
+            <div class="main_second_1">
+                <p class="lunbo_1">热门试用</p>
+                <div class="lunbo_out">
+                    <div class="lunbo_scroll">
+                        <div class="lunbo_img">
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="./image/img/hot9.jpg" alt="#"></a>
+                                    <p class="lunbo_p">巴慕达 The Toaster 烤面包机</p>
+                                    <div><a href="#">2032</a><a href="#">20台</a></div>
+                                    <p class="lunbo_p1"><span>1392</span>申请</p>
+                                    <p class="lunbo_p2">剩余时间2天</p>
+                                    <span class="lunbo_span_1">首发</span>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/img/hot10.jpg" alt="#"></a>
+                                    <p class="lunbo_p">巴慕达 The Toaster 烤面包机</p>
+                                    <div><a href="#" class="lunbo_color">2032</a><a href="#" class="lunbo_color">20台</a></div>
+                                    <p class="lunbo_p1"><span>1392</span>申请</p>
+                                    <p class="lunbo_p2 lunbo_color">查看试用名单</p>
+                                    <span class="lunbo_span_2">体验式专享</span>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/img/hot11.jpg" alt="#"></a>
+                                    <p class="lunbo_p">巴慕达 The Toaster 烤面包机</p>
+                                    <div><a href="#">2032</a><a href="#">20台</a></div>
+                                    <p class="lunbo_p1"><span>1392</span>申请</p>
+                                    <p class="lunbo_p2">剩余时间2天</p>
+                                    <span class="lunbo_span_1">首发</span>
+                                </li>
+                                <li class="lunbo_li">
+                                    <a href="#"><img src="./image/img/hot12.jpg" alt="#"></a>
+                                    <p class="lunbo_p">巴慕达 The Toaster 烤面包机</p>
+                                    <div><a href="#">2032</a><a href="#">20台</a></div>
+                                    <p class="lunbo_p1"><span>1392</span>申请</p>
+                                    <p class="lunbo_p2">剩余时间2天</p>
+                                    <span class="lunbo_span_1">首发</span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="./image/img/hot1.jpg" alt="#"></a>
+                                    <p class="lunbo_p">巴慕达 The Toaster 烤面包机</p>
+                                    <div><a href="#">2032</a><a href="#">20台</a></div>
+                                    <p class="lunbo_p1"><span>1392</span>申请</p>
+                                    <p class="lunbo_p2">剩余时间2天</p>
+                                    <span class="lunbo_span_1">首发</span>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/img/hot2.jpg" alt="#"></a>
+                                    <p class="lunbo_p">巴慕达 The Toaster 烤面包机</p>
+                                    <div><a href="#" class="lunbo_color">2032</a><a href="#" class="lunbo_color">20台</a></div>
+                                    <p class="lunbo_p1"><span>1392</span>申请</p>
+                                    <p class="lunbo_p2 lunbo_color">查看试用名单</p>
+                                    <span class="lunbo_span_2">体验式专享</span>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/img/hot3.jpg" alt="#"></a>
+                                    <p class="lunbo_p">巴慕达 The Toaster 烤面包机</p>
+                                    <div><a href="#">2032</a><a href="#">20台</a></div>
+                                    <p class="lunbo_p1"><span>1392</span>申请</p>
+                                    <p class="lunbo_p2">剩余时间2天</p>
+                                    <span class="lunbo_span_1">首发</span>
+                                </li>
+                                <li class="lunbo_li">
+                                    <a href="#"><img src="./image/img/hot4.jpg" alt="#"></a>
+                                    <p class="lunbo_p">巴慕达 The Toaster 烤面包机</p>
+                                    <div><a href="#">2032</a><a href="#">20台</a></div>
+                                    <p class="lunbo_p1"><span>1392</span>申请</p>
+                                    <p class="lunbo_p2">剩余时间2天</p>
+                                    <span class="lunbo_span_1">首发</span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="./image/img/hot5.jpg" alt="#"></a>
+                                    <p class="lunbo_p">巴慕达 The Toaster 烤面包机</p>
+                                    <div><a href="#">2032</a><a href="#">20台</a></div>
+                                    <p class="lunbo_p1"><span>1392</span>申请</p>
+                                    <p class="lunbo_p2">剩余时间2天</p>
+                                    <span class="lunbo_span_1">首发</span>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/img/hot6.jpg" alt="#"></a>
+                                    <p class="lunbo_p">巴慕达 The Toaster 烤面包机</p>
+                                    <div><a href="#" class="lunbo_color">2032</a><a href="#" class="lunbo_color">20台</a></div>
+                                    <p class="lunbo_p1"><span>1392</span>申请</p>
+                                    <p class="lunbo_p2 lunbo_color">查看试用名单</p>
+                                    <span class="lunbo_span_2">体验式专享</span>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/img/hot7.jpg" alt="#"></a>
+                                    <p class="lunbo_p">巴慕达 The Toaster 烤面包机</p>
+                                    <div><a href="#">2032</a><a href="#">20台</a></div>
+                                    <p class="lunbo_p1"><span>1392</span>申请</p>
+                                    <p class="lunbo_p2">剩余时间2天</p>
+                                    <span class="lunbo_span_1">首发</span>
+                                </li>
+                                <li class="lunbo_li">
+                                    <a href="#"> <img src="./image/img/hot8.jpg" alt="#"></a>
+                                    <p class="lunbo_p">巴慕达 The Toaster 烤面包机</p>
+                                    <div><a href="#">2032</a><a href="#">20台</a></div>
+                                    <p class="lunbo_p1"><span>1392</span>申请</p>
+                                    <p class="lunbo_p2">剩余时间2天</p>
+                                    <span class="lunbo_span_1">首发</span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="./image/img/hot9.jpg" alt="#"></a>
+                                    <p class="lunbo_p">巴慕达 The Toaster 烤面包机</p>
+                                    <div><a href="#">2032</a><a href="#">20台</a></div>
+                                    <p class="lunbo_p1"><span>1392</span>申请</p>
+                                    <p class="lunbo_p2">剩余时间2天</p>
+                                    <span class="lunbo_span_1">首发</span>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/img/hot10.jpg" alt="#"></a>
+                                    <p class="lunbo_p">巴慕达 The Toaster 烤面包机</p>
+                                    <div><a href="#" class="lunbo_color">2032</a><a href="#" class="lunbo_color">20台</a></div>
+                                    <p class="lunbo_p1"><span>1392</span>申请</p>
+                                    <p class="lunbo_p2 lunbo_color">查看试用名单</p>
+                                    <span class="lunbo_span_2">体验式专享</span>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/img/hot11.jpg" alt="#"></a>
+                                    <p class="lunbo_p">巴慕达 The Toaster 烤面包机</p>
+                                    <div><a href="#">2032</a><a href="#">20台</a></div>
+                                    <p class="lunbo_p1"><span>1392</span>申请</p>
+                                    <p class="lunbo_p2">剩余时间2天</p>
+                                    <span class="lunbo_span_1">首发</span>
+                                </li>
+                                <li class="lunbo_li">
+                                    <a href="#"><img src="./image/img/hot12.jpg" alt="#"></a>
+                                    <p class="lunbo_p">巴慕达 The Toaster 烤面包机</p>
+                                    <div><a href="#">2032</a><a href="#">20台</a></div>
+                                    <p class="lunbo_p1"><span>1392</span>申请</p>
+                                    <p class="lunbo_p2">剩余时间2天</p>
+                                    <span class="lunbo_span_1">首发</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_second_change">
+                <span class="prev change_1"></span>
+                <span class="next change_1"></span>
+            </div>
+       </div>
+    
+       <div class="main_third clearfix">
+           <div class="main_pace">
+                <div class="main_third_first clearfix">
+                    <p>报告精选</p>
+                    <a href="#">查看更多</a>
+                    </div>
+                <ul id="main_list_1"  class="clearfix">
+                    <li>
+                        <div class="img_th"><a href="#"><img src="./image/img/bg1.jpg" alt="#"></a></div>
+                       <p class="third_p1"><a href="#">空气净化器里边学问夺得惊呆你 ，你选对了吗？</a></p>
+                       <p class="third_p2 clearfix"><span class="span_1"></span><span class="span_2">苏苏</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                    </li>
+                    <li>
+                        <div class="img_th"><a href="#"><img src="./image/img/bg2.jpg" alt="#"></a></div>
+                       <p class="third_p1"><a href="#">怎么骑都不会累的智能自行车：云马C1试驾体验</a></p>
+                       <p class="third_p2 clearfix"><span class="span_1"></span><span class="span_2">苏苏</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                    </li>
+                    <li>
+                        <div class="img_th"><a href="#"><img src="./image/img/bg3.jpg" alt="#"></a></div>
+                       <p class="third_p1"><a href="#">声音不是最优秀，但它的形音完美的结合，足够打动心</a></p>
+                       <p class="third_p2 clearfix"><span class="span_1"></span><span class="span_2">苏苏</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                    </li>
+                    <li class="main_list_li">
+                        <div class="img_th"><a href="#"><img src="./image/img/bg4.jpg" alt="#"></a></div>
+                       <p class="third_p1"><a href="#">风光大片信手拈来vivoX6Plus不是最快，还是一台拍照利器</a></p>
+                       <p class="third_p2 clearfix"><span class="span_1"></span><span class="span_2">苏苏</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                    </li>
+                    <li>
+                        <div class="img_th"><a href="#"><img src="./image/img/bg5.jpg" alt="#"></a></div>
+                       <p class="third_p1"><a href="#">空气净化器里边学问夺得惊呆你 ，你选对了吗？</a></p>
+                       <p class="third_p2 clearfix"><span class="span_1"></span><span class="span_2">苏苏</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                    </li>
+                    <li>
+                        <div class="img_th"><a href="#"><img src="./image/img/bg6.jpg" alt="#"></a></div>
+                       <p class="third_p1"><a href="#">声音不是最优秀，但它的形音完美的结合，足够打动心</a></p>
+                       <p class="third_p2 clearfix"><span class="span_1"></span><span class="span_2">苏苏</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                    </li>
+                    <li>
+                        <div class="img_th"><a href="#"><img src="./image/img/bg7.jpg" alt="#"></a></div>
+                       <p class="third_p1"><a href="#">怎么骑都不会累的智能自行车：云马C1试驾体验</a></p>
+                       <p class="third_p2 clearfix"><span class="span_1"></span><span class="span_2">苏苏</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                    </li>
+                    <li class="main_list_li">
+                        <div class="img_th"><a href="#"><img src="./image/img/bg8.jpg" alt="#"></a></div>
+                       <p class="third_p1"><a href="#">空气净化器里边学问夺得惊呆你 ，你选对了吗？</a></p>
+                       <p class="third_p2 clearfix"><span class="span_1"></span><span class="span_2">苏苏</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                    </li>
+                </ul>
+           </div>
+       </div>
+    
+       <div class="main_third clearfix">
+        <div class="main_pace">
+             <div class="main_third_first clearfix">
+                 <p>导购精选</p>
+                 <a href="#">查看更多</a>
+                 </div>
+             <ul id="main_list_1"  class="clearfix">
+                 <li>
+                     <div class="img_th"><a href="#"><img src="./image/img/g1.jpg" alt="#"></a></div>
+                    <p class="third_p1"><a href="#">花万元把蜗居秒变"豪宅" ？这12件家具能帮你办到</a></p>
+                    <p class="third_p2 clearfix"><span class="span_1"></span><span class="span_2">苏苏</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                 </li>
+                 <li>
+                     <div class="img_th"><a href="#"><img src="./image/img/g2.jpg" alt="#"></a></div>
+                    <p class="third_p1"><a href="#">到底有没有完美的iphone手机配件，答案都在这里</a></p>
+                    <p class="third_p2 clearfix"><span class="span_1"></span><span class="span_2">苏苏</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                 </li>
+                 <li>
+                     <div class="img_th"><a href="#"><img src="./image/img/g3.jpg" alt="#"></a></div>
+                    <p class="third_p1"><a href="./detail.html">2016，这8支钢笔够你装逼一整年</a></p>
+                    <p class="third_p2 clearfix"><span class="span_1"></span><span class="span_2">苏苏</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                 </li>
+                 <li class="main_list_li">
+                     <div class="img_th"><a href="#"><img src="./image/img/g4.jpg" alt="#"></a></div>
+                    <p class="third_p1"><a href="#">他用12年我找一把完美剃须刀，给你2万字终极购买指南</a></p>
+                    <p class="third_p2 clearfix"><span class="span_1"></span><span class="span_2">苏苏</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                 </li>
+             </ul>
+        </div>
+    </div>
+    
+    <div class="main_third clearfix">
+        <div class="main_pace">
+             <div class="main_third_first clearfix">
+                 <p>发现酷玩</p>
+                 <a href="#">查看更多</a>
+                 </div>
+             <ul id="main_list_1"  class="clearfix">
+                 <li>
+                     <div class="img_th"><a href="#"><img src="./image/img/k1.jpg" alt="#"></a></div>
+                    <p class="third_p1"><a href="#">SCIO微型光谱仪</a></p>
+                    <p class="third_p1"><a href="#" class="zhuye_last">可以测定失误成分及营养</a></p>
+                    <p class="third_p2 clearfix"><span class="span_3">￥</span><span class="span_4">1212</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                 </li>
+                 <li>
+                     <div class="img_th"><a href="#"><img src="./image/img/k2.jpg" alt="#"></a></div>
+                     <p class="third_p1"><a href="#">B&O BeoSound 35 音响</a></p>
+                     <p class="third_p1"><a href="#" class="zhuye_last">支持所有音乐流媒体服务</a></p>
+                    <p class="third_p2 clearfix"><span class="span_3">￥</span><span class="span_4">512</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                 </li>
+                 <li>
+                     <div class="img_th"><a href="#"><img src="./image/img/k3.jpg" alt="#"></a></div>
+                     <p class="third_p1"><a href="#">Mizbii 触控吸色笔</a></p>
+                     <p class="third_p1"><a href="#" class="zhuye_last">能吸取65000种颜色</a></p>
+                    <p class="third_p2 clearfix"><span class="span_3">￥</span><span class="span_4">暂无</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                 </li>
+                 <li class="main_list_li">
+                     <div class="img_th"><a href="#"><img src="./image/img/k4.jpg" alt="#"></a></div>
+                     <p class="third_p1"><a href="#">XPLORER 2 航拍飞行棋</a></p>
+                     <p class="third_p1"><a href="#" class="zhuye_last">可以测定失误成分及营养</a></p>
+                    <p class="third_p2 clearfix"><span class="span_3">￥</span><span class="span_4">433</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                 </li>
+                 <li>
+                    <div class="img_th"><a href="#"><img src="./image/img/k1.jpg" alt="#"></a></div>
+                   <p class="third_p1"><a href="#">SCIO微型光谱仪</a></p>
+                   <p class="third_p1"><a href="#" class="zhuye_last">可以测定失误成分及营养</a></p>
+                   <p class="third_p2 clearfix"><span class="span_3">￥</span><span class="span_4">1212</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                </li>
+                <li>
+                    <div class="img_th"><a href="#"><img src="./image/img/k2.jpg" alt="#"></a></div>
+                    <p class="third_p1"><a href="#">B&O BeoSound 35 音响</a></p>
+                    <p class="third_p1"><a href="#" class="zhuye_last">支持所有音乐流媒体服务</a></p>
+                   <p class="third_p2 clearfix"><span class="span_3">￥</span><span class="span_4">512</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                </li>
+                <li>
+                    <div class="img_th"><a href="#"><img src="./image/img/k3.jpg" alt="#"></a></div>
+                    <p class="third_p1"><a href="#">Mizbii 触控吸色笔</a></p>
+                    <p class="third_p1"><a href="#" class="zhuye_last">能吸取65000种颜色</a></p>
+                   <p class="third_p2 clearfix"><span class="span_3">￥</span><span class="span_4">暂无</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                </li>
+                <li class="main_list_li">
+                    <div class="img_th"><a href="#"><img src="./image/img/k4.jpg" alt="#"></a></div>
+                    <p class="third_p1"><a href="#">XPLORER 2 航拍飞行棋</a></p>
+                    <p class="third_p1"><a href="#" class="zhuye_last">可以测定失误成分及营养</a></p>
+                   <p class="third_p2 clearfix"><span class="span_3">￥</span><span class="span_4">433</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                </li>
+                <li>
+                    <div class="img_th"><a href="#"><img src="./image/img/k1.jpg" alt="#"></a></div>
+                   <p class="third_p1"><a href="#">SCIO微型光谱仪</a></p>
+                   <p class="third_p1"><a href="#" class="zhuye_last">可以测定失误成分及营养</a></p>
+                   <p class="third_p2 clearfix"><span class="span_3">￥</span><span class="span_4">1212</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                </li>
+                <li>
+                    <div class="img_th"><a href="#"><img src="./image/img/k2.jpg" alt="#"></a></div>
+                    <p class="third_p1"><a href="#">B&O BeoSound 35 音响</a></p>
+                    <p class="third_p1"><a href="#" class="zhuye_last">支持所有音乐流媒体服务</a></p>
+                   <p class="third_p2 clearfix"><span class="span_3">￥</span><span class="span_4">512</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                </li>
+                <li>
+                    <div class="img_th"><a href="#"><img src="./image/img/k3.jpg" alt="#"></a></div>
+                    <p class="third_p1"><a href="#">Mizbii 触控吸色笔</a></p>
+                    <p class="third_p1"><a href="#" class="zhuye_last">能吸取65000种颜色</a></p>
+                   <p class="third_p2 clearfix"><span class="span_3">￥</span><span class="span_4">暂无</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                </li>
+                <li class="main_list_li">
+                    <div class="img_th"><a href="#"><img src="./image/img/k4.jpg" alt="#"></a></div>
+                    <p class="third_p1"><a href="#">XPLORER 2 航拍飞行棋</a></p>
+                    <p class="third_p1"><a href="#" class="zhuye_last">可以测定失误成分及营养</a></p>
+                   <p class="third_p2 clearfix"><span class="span_3">￥</span><span class="span_4">433</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                </li>
+                <li>
+                    <div class="img_th"><a href="#"><img src="./image/img/k1.jpg" alt="#"></a></div>
+                   <p class="third_p1"><a href="#">SCIO微型光谱仪</a></p>
+                   <p class="third_p1"><a href="#" class="zhuye_last">可以测定失误成分及营养</a></p>
+                   <p class="third_p2 clearfix"><span class="span_3">￥</span><span class="span_4">1212</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                </li>
+                <li>
+                    <div class="img_th"><a href="#"><img src="./image/img/k2.jpg" alt="#"></a></div>
+                    <p class="third_p1"><a href="#">B&O BeoSound 35 音响</a></p>
+                    <p class="third_p1"><a href="#" class="zhuye_last">支持所有音乐流媒体服务</a></p>
+                   <p class="third_p2 clearfix"><span class="span_3">￥</span><span class="span_4">512</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                </li>
+                <li>
+                    <div class="img_th"><a href="#"><img src="./image/img/k3.jpg" alt="#"></a></div>
+                    <p class="third_p1"><a href="#">Mizbii 触控吸色笔</a></p>
+                    <p class="third_p1"><a href="#" class="zhuye_last">能吸取65000种颜色</a></p>
+                   <p class="third_p2 clearfix"><span class="span_3">￥</span><span class="span_4">暂无</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                </li>
+                <li class="main_list_li">
+                    <div class="img_th"><a href="#"><img src="./image/img/k4.jpg" alt="#"></a></div>
+                    <p class="third_p1"><a href="#">XPLORER 2 航拍飞行棋</a></p>
+                    <p class="third_p1"><a href="#" class="zhuye_last">可以测定失误成分及营养</a></p>
+                   <p class="third_p2 clearfix"><span class="span_3">￥</span><span class="span_4">433</span><a href="#" class="p_a1">3</a><a href="#" class="p_a2">3</a></p>  
+                </li>
+             </ul>
+             <ul id="free_list">
+
+             </ul>
+        </div>
+    </div>
+    
+    <div class="main_more">
+       <p class="nomain_loading">点击加载更多</p> 
+    </div>    
+
+    </section>
+    <!-- 网页底部 -->
+    <footer class="footer_total">
+        <div class="footer_main clearfix">
+            <div class="footer_picture">
+                <img src="./image/img/code.png" alt="#" class="footer_erweima">
+            </div>
+            <div class="footer_nav">
+                <dl>
+                    <dt><img src="./image/img/logoImg.jpg" alt="#"></dt>
+                    <dd><a href="#">全球酷玩试用导购平台</a></dd>
+                    <dd class="footer_jian"><a href="#">酷·新奇·好玩·品质</a></dd>
+                    <dd><a href="#">微信添加"JguoJguo"</a></dd>
+                    <dd><a href="#">获取我们的服务</a></dd>
+                </dl>
+                <dl>
+                    <dt>免费试用</dt>
+                    <dd><a href="#">试用流程</a></dd>
+                    <dd><a href="#">如何提高成功率</a></dd>
+                </dl>
+                <dl class="footer_dl_1">
+                    <dt>友情链接</dt>
+                    <dd><a href="#">智东西</a></dd>
+                    <dd><a href="#">搜狐IT</a></dd>
+                    <dd><a href="#">搜狐数码</a></dd>
+                    <dd><a href="#">凤凰数码</a></dd>
+                    <dd><a href="#">泡泡网</a></dd>
+                    <dd><a href="#">ZUK社区</a></dd>
+                    <dd><a href="#">极客公园</a></dd>
+                    <dd><a href="#">果库</a></dd>
+                </dl>
+                <dl class="footer_dl_2">
+                    <dd><a href="#">WEIBUSI</a></dd>
+                    <dd><a href="#">腾讯科技</a></dd>
+                    <dd><a href="#">凤凰科技</a></dd>
+                    <dd><a href="#">PConline</a></dd>
+                    <dd><a href="#">3W咖啡</a></dd>
+                    <dd><a href="#">亿觅emie</a></dd>
+                    <dd><a href="#">易迅易启玩</a></dd>
+                </dl>
+                <dl>
+                    <dt>购买攻略</dt>
+                    <dd><a href="#">美亚海淘教程</a></dd>
+                    <dd><a href="#">日亚海淘教程</a></dd>
+                    <dd><a href="#">海淘转运攻略</a></dd>
+                    <dd><a href="#">kickstarter众筹购买攻略</a></dd>
+                    <dd><a href="#">indiegogo众筹购买攻略</a></dd>
+                </dl>
+                <dl>
+                    <dt>厂商合作</dt>
+                    <dd><a href="./about.html">关于极果</a></dd>
+                    <dd><a href="./about.html">联系我们</a></dd>
+                    <dd><a href="./about.html">商务合作：BD@jiguo.com</a></dd>
+                    <dd><a href="./about.html">CEO邮箱：CED@jiguo.com</a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="footer_btm">
+            &copy:2016 极果版权所有
+        </div>
+        <div class="footer_return">
+
+        </div>
+    </footer>
+<script src="./js/doT.min.js"></script>
+<script id="more_free_1" type="text/x-dot-template">
+    {{~it:value:index}} 
+    <li>
+        <a href="#"><img src="{{=value.img}}" alt="#" class="free_img_1"></a>
+        <p class="free_p1"><a href="#">{{=value.text}}</a></p>
+        <div><a href="#" style="border-color:rgb({{=value.color}}); color: rgb({{=value.color}});">点这有好东西</a><a href="#" style="border-color:rgb({{=value.color}});color: rgb({{=value.color}});">20台</a></div>
+        <p class="free_p2"><span>1392</span>申请</p>
+        <span class="free_span_1" style="rgb({{=value.color}});">买到就是赚到</span>
+    </li>
+    {{~}} 
+</script>
+<script src="./js/public_head.js"></script>
+<script src="./js/adress.js"></script>
+<script src="./js/index.js"></script>
+
+</body>
+
+</html>

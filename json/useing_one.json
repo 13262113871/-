@@ -1,0 +1,162 @@
+[
+    {
+        "img": "./image/img/hot1.jpg",
+        "ico": "./image/img/souf.png",
+        "text": "巴慕达The Toaster烤面包机",
+        "color":"250,102,82",
+        "code":2032,
+        "num": "20台",
+        "totalnum": "1392申请",
+        "apply": "剩余时间2天"
+    },
+    {
+        "img": "./image/img/hot2.jpg",
+        "ico": "./image/img/souf.png",
+        "text": "osprey小鹰户外运动专业腰包",
+        "color":"124,204,108",
+        "code":2032,
+        "num": "20台",
+        "totalnum": "1392申请",
+        "apply": "查看试用名单"
+    },
+    {
+        "img": "./image/img/hot3.jpg",
+        "ico": "./image/img/souf.png",
+        "text": "Liquid Image 338运动摄像眼镜",
+        "color":"214,214,214",
+        "code":2032,
+        "num": "20台",
+        "totalnum": "1392申请",
+        "apply": "报告数量:8"
+    },
+    {
+        "img": "./image/img/hot4.jpg",
+        "ico": "./image/img/souf.png",
+        "text": "小米优选智能小手表",
+        "color":"250,102,82",
+        "code":2032,
+        "num": "20台",
+        "totalnum": "1392申请",
+        "apply": "剩余时间2天"
+    },
+    {
+        "img": "./image/img/hot5.jpg",
+        "ico": "./image/img/souf.png",
+        "text": "最新 HUAWEI 智能5G手机",
+        "color":"250,102,82",
+        "code":2032,
+        "num": "20台",
+        "totalnum": "1392申请",
+        "apply": "报告数量:8"
+    },
+    {
+        "img": "./image/img/hot6.jpg",
+        "ico": "./image/img/souf.png",
+        "text": "SSP桥车高端小座椅",
+        "color":"124,204,108",
+        "code":2032,
+        "num": "20台",
+        "totalnum": "1392申请",
+        "apply": "查看试用名单"
+    },
+    {
+        "img": "./image/img/hot7.jpg",
+        "ico": "./image/img/souf.png",
+        "text": "vovi 6000万莱卡双摄手机",
+        "color":"214,214,214",
+        "code":2032,
+        "num": "20台",
+        "totalnum": "1392申请",
+        "apply": "报告数量:8"
+    },
+    {
+        "img": "./image/img/hot8.jpg",
+        "ico": "./image/img/souf.png",
+        "text": "双对企鹅智能小音箱",
+        "color":"214,214,214",
+        "code":2032,
+        "num": "20台",
+        "totalnum": "1392申请",
+        "apply": "报告数量:8"
+    },
+    {
+        "img": "./image/img/hot9.jpg",
+        "ico": "./image/img/souf.png",
+        "text": "绚丽保温运动小水壶",
+        "color":"124,204,108",
+        "code":2032,
+        "num": "20台",
+        "totalnum": "1392申请",
+        "apply": "报告数量:8"
+    },
+    {
+        "img": "./image/img/hot10.jpg",
+        "ico": "./image/img/souf.png",
+        "text": "多功能游戏手柄",
+        "color":"124,204,108",
+        "code":2032,
+        "num": "20台",
+        "totalnum": "1392申请",
+        "apply": "报告数量:8"
+    },
+    {
+        "img": "./image/img/hot11.jpg",
+        "ico": "./image/img/souf.png",
+        "text": "瑞士精准小金表上新",
+        "color":"124,204,108",
+        "code":2032,
+        "num": "20台",
+        "totalnum": "1392申请",
+        "apply": "报告数量:8"
+    },
+    {
+        "img": "./image/img/hot12.jpg",
+        "ico": "./image/img/souf.png",
+        "text": "3D视觉体验眼镜",
+        "color":"214,214,214",
+        "code":2032,
+        "num": "20台",
+        "totalnum": "1392申请",
+        "apply": "报告数量:8"
+    },
+    {
+        "img": "./image/img/hot3.jpg",
+        "ico": "./image/img/souf.png",
+        "text": "Liquid Image 338运动摄像眼镜",
+        "color":"124,204,108",
+        "code":2032,
+        "num": "20台",
+        "totalnum": "1392申请",
+        "apply": "报告数量:8"
+    },
+    {
+        "img": "./image/img/hot4.jpg",
+        "ico": "./image/img/souf.png",
+        "text": "小米优选智能小手表",
+        "color":"250,102,82",
+        "code":2032,
+        "num": "20台",
+        "totalnum": "1392申请",
+        "apply": "剩余时间2天"
+    },
+    {
+        "img": "./image/img/hot5.jpg",
+        "ico": "./image/img/souf.png",
+        "text": "最新 HUAWEI 智能5G手机",
+        "color":"250,102,82",
+        "code":2032,
+        "num": "20台",
+        "totalnum": "1392申请",
+        "apply": "报告数量:8"
+    },
+    {
+        "img": "./image/img/hot6.jpg",
+        "ico": "./image/img/souf.png",
+        "text": "SSP桥车高端小座椅",
+        "color":"250,102,82",
+        "code":2032,
+        "num": "20台",
+        "totalnum": "1392申请",
+        "apply": "查看试用名单"
+    }
+]

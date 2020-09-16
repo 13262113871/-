@@ -1,0 +1,310 @@
+ul,
+li {
+  list-style: none;
+}
+li img:hover {
+  transform: scale(1.1);
+}
+li p:hover {
+  color: orange;
+}
+.cool {
+  width: 100%;
+  height: 120px;
+  margin-top: 50px;
+}
+.cool p {
+  font-size: 40px;
+  text-align: center;
+}
+.cool .list {
+  width: 420px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.cool .bottom {
+  border-bottom: red solid 4px;
+}
+.cool .new {
+  float: left;
+  width: 140px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.cool .hot {
+  float: left;
+  width: 140px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.cool .sort {
+  float: left;
+  width: 140px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.main {
+  width: 100%;
+  background-color: #f7f7f7;
+}
+.main .new_ul {
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  position: relative;
+}
+.main .new_ul .one {
+  margin-top: 20px;
+  width: 100%;
+  margin-left: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.main .new_ul .one .new_one {
+  height: auto;
+}
+.main .new_ul .one li > img:hover {
+  transform: scale(1.2);
+}
+.main .new_ul .one li {
+  float: left;
+  width: 225px;
+  height: 220px;
+  border: #999 1px solid;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-right: 24px;
+  box-sizing: border-box;
+}
+.main .new_ul .one li .title {
+  font-size: 14px;
+  height: 30px;
+  color: #666;
+  margin-left: 5px;
+  line-height: 15px;
+  margin-top: 10px;
+}
+.main .new_ul .one li .price {
+  font-size: 12px;
+  color: red;
+  float: left;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.main .new_ul .one li .like {
+  float: right;
+  width: 10px;
+  height: 15px;
+  font-size: 12px;
+  color: #666;
+  padding-left: 15px;
+  margin-top: 20px;
+  background: url(../image/icon/xin.png) no-repeat 0px 2px;
+}
+.main .new_ul .one li .words {
+  float: right;
+  width: 30px;
+  height: 15px;
+  font-size: 12px;
+  color: #666;
+  padding-left: 15px;
+  margin-top: 20px;
+  background: url(../image/icon/reply.png) no-repeat 0px 2px;
+}
+.main .new_ul .two {
+  margin-top: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+.main .new_ul .there {
+  margin-top: 20px;
+  width: 100%;
+  margin-left: 10px;
+  display: none;
+  box-sizing: border-box;
+  /* 生活 */
+  /* 个人护理 */
+  /* 健康 */
+  /* 智能穿戴 */
+}
+.main .new_ul .there .live {
+  overflow: hidden;
+  background-color: #fff;
+  height: 450px;
+}
+.main .new_ul .there .live .live_b > ul {
+  overflow: hidden;
+  position: relative;
+  left: 66px;
+}
+.main .new_ul .there .live .live_b > ul > li {
+  float: left;
+  color: #888;
+  width: 120px;
+  text-align: center;
+  margin: 20px 30px 0px 0px;
+}
+.main .new_ul .there .live_a {
+  border-bottom: dashed 1px #888;
+}
+.main .new_ul .there .live_a > ul {
+  overflow: hidden;
+  position: relative;
+  left: -18px;
+}
+.main .new_ul .there .live_title {
+  float: left;
+  padding-left: 10px;
+  border-left: red 4px solid;
+  text-align: center;
+  margin-top: 10px;
+  color: #888;
+}
+.main .new_ul .there .live_a > ul > li > p {
+  color: #888;
+}
+.main .new_ul .there .live_a > ul > li {
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.main .new_ul .there .live_last {
+  position: relative;
+  left: 12px;
+}
+.main .new_ul .there .care {
+  margin-top: 40px;
+  background-color: #fff;
+  overflow: hidden;
+  height: 250px;
+}
+.main .new_ul .there .care .care_title {
+  float: left;
+  padding-left: 10px;
+  border-left: red 4px solid;
+  text-align: center;
+  margin-top: 10px;
+  color: #888;
+}
+.main .new_ul .there .care .care_a {
+  border-bottom: dashed 1px #888;
+}
+.main .new_ul .there .care .care_a > ul {
+  overflow: hidden;
+  position: relative;
+  left: -53px;
+  top: 20px;
+  margin-bottom: 20px;
+}
+.main .new_ul .there .care .care_a > ul > li {
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.main .new_ul .there .care .care_a > ul > li > p {
+  color: #888;
+}
+.main .new_ul .there .care .care_b > ul {
+  overflow: hidden;
+  position: relative;
+  left: 55px;
+}
+.main .new_ul .there .care .care_b > ul > li {
+  float: left;
+  color: #888;
+  margin: 20px 42px 4px 24px;
+}
+.main .new_ul .there .jk {
+  margin-top: 40px;
+  background-color: #fff;
+  overflow: hidden;
+  height: 250px;
+}
+.main .new_ul .there .jk .jk_title {
+  float: left;
+  padding-left: 10px;
+  border-left: red 4px solid;
+  text-align: center;
+  margin-top: 10px;
+  color: #888;
+}
+.main .new_ul .there .jk .jk_a {
+  border-bottom: dashed 1px #888;
+}
+.main .new_ul .there .jk .jk_a > ul {
+  overflow: hidden;
+  position: relative;
+  left: -18px;
+  top: 20px;
+  margin-bottom: 20px;
+}
+.main .new_ul .there .jk .jk_a > ul > li {
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.main .new_ul .there .jk .jk_a > ul > li > p {
+  color: #888;
+}
+.main .new_ul .there .jk .jk_b > ul {
+  overflow: hidden;
+  position: relative;
+  left: 55px;
+}
+.main .new_ul .there .jk .jk_b > ul > li {
+  float: left;
+  color: #888;
+  margin: 20px 42px 4px 24px;
+}
+.main .new_ul .there .zn {
+  overflow: hidden;
+  background-color: #fff;
+  height: 210px;
+  margin-top: 50px;
+}
+.main .new_ul .there .zn .zn_b > ul {
+  overflow: hidden;
+  position: relative;
+  left: 66px;
+}
+.main .new_ul .there .zn .zn_b > ul > li {
+  float: left;
+  color: #888;
+  width: 120px;
+  text-align: center;
+  margin: 20px 30px 0px 0px;
+}
+.main .new_ul .there .zn_a {
+  border-bottom: dashed 1px #888;
+}
+.main .new_ul .there .zn_a > ul {
+  overflow: hidden;
+  position: relative;
+  left: -50px;
+}
+.main .new_ul .there .zn_title {
+  float: left;
+  padding-left: 10px;
+  border-left: red 4px solid;
+  text-align: center;
+  margin-top: 10px;
+  color: #888;
+}
+.main .new_ul .there .zn_a > ul > li > p {
+  color: #888;
+}
+.main .new_ul .there .zn_a > ul > li {
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.main .new_ul .there .zn_last {
+  position: relative;
+  left: 12px;
+}

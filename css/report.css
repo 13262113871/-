@@ -1,0 +1,198 @@
+.mid_area {
+  margin: 0 auto;
+}
+.mid_area .mid_top_oneV {
+  width: 160px;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 40px auto;
+}
+.mid_area .mid_top_twoV {
+  width: 345px;
+  margin: 0 auto;
+}
+.mid_area .mid_top_twoV span {
+  width: 160px;
+  color: #cccccc;
+  font-size: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 0 5px 65px;
+  cursor: pointer;
+}
+.mid_area .mid_top_twoV .mid_top_spanC {
+  border-bottom: 3px solid #f8572b;
+}
+.mid_area .mid_main_body {
+  background-color: #f7f7f7;
+}
+.mid_area .mid_main {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 25px;
+  overflow: hidden;
+  background-color: #f7f7f7;
+}
+.mid_area .mid_main .mid_main_lf {
+  width: 700px;
+  float: left;
+}
+.mid_area .mid_main .mid_main_lf .mid_main_lfDiv .mid_main_lfOne {
+  border-radius: 8px;
+  height: 390px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.mid_area .mid_main .mid_main_lf .mid_main_lfDiv .mid_main_lfOne .mid_main_lfOne1 {
+  height: 100px;
+  width: 700px;
+  padding: 20px 0 0 20px;
+  border-radius: 0 0 8px 8px;
+  box-sizing: border-box;
+  background-color: rgba(242, 238, 235, 0.9);
+  position: absolute;
+  bottom: 0;
+}
+.mid_area .mid_main .mid_main_lf .mid_main_lfDiv .mid_main_lfOne .mid_main_lfOne1 p:nth-of-type(1) {
+  margin: 0;
+  font-size: 17px;
+  color: #464646;
+}
+.mid_area .mid_main .mid_main_lf .mid_main_lfDiv .mid_main_lfOne .mid_main_lfOne1 p:nth-of-type(2) {
+  color: #5e5d5d;
+  font-size: 13px;
+  line-height: 20px;
+}
+.mid_area .mid_main .mid_main_lf .mid_main_lfDiv .mid_main_lfOne .mid_main_lfOne1 p:nth-of-type(2) span:nth-of-type(1) {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url(../image/icon/tx.jpg) no-repeat;
+  position: relative;
+  top: 3px;
+  margin-right: 5px;
+}
+.mid_area .mid_main .mid_main_lf .mid_main_lfDiv .mid_main_lfOne .mid_main_lfOne1 p:nth-of-type(2) span:nth-of-type(2) {
+  color: red;
+}
+.mid_area .mid_main .mid_main_lf .mid_main_lfDiv .mid_main_lfOne .mid_main_lfOne1 p:nth-of-type(2) span:nth-of-type(4) {
+  display: inline-block;
+  line-height: 15px;
+  text-indent: 1.5em;
+  margin: 0 10px 0 430px;
+}
+.mid_area .mid_main .mid_main_lf .mid_main_lfDiv .mid_main_lfOne .mid_main_lfOne1 p:nth-of-type(2) .zan {
+  background: url(../image/icon/zan.png) no-repeat;
+}
+.mid_area .mid_main .mid_main_lf .mid_main_lfDiv .mid_main_lfOne .mid_main_lfOne1 p:nth-of-type(2) .zan_1 {
+  background: url(../image/icon/zan_1.png) no-repeat;
+}
+.mid_area .mid_main .mid_main_lf .mid_main_lfDiv .mid_main_lfOne .mid_main_lfOne1 p:nth-of-type(2) span:nth-of-type(5) {
+  display: inline-block;
+  line-height: 15px;
+  text-indent: 1.5em;
+  background: url(../image/icon/reply.png) no-repeat;
+}
+.mid_area .mid_main .mid_main_lf .mid_main_lfTwo {
+  border: 1px solid #ddd;
+  width: 700px;
+  height: 50px;
+  margin: 15px 0;
+  border-radius: 8px;
+  position: relative;
+}
+.mid_area .mid_main .mid_main_lf .mid_main_lfTwo span {
+  font-size: 13px;
+  color: #5e5d5d;
+  line-height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mid_area .mid_main .mid_main_lf .mid_main_lfJz {
+  height: 30px;
+  cursor: pointer;
+  margin: 15px 0;
+}
+.mid_area .mid_main .mid_main_lf .mid_main_lfJz span {
+  display: inline-block;
+  font-size: 14px;
+  color: #f8572b;
+  box-sizing: border-box;
+  margin-left: 150px;
+}
+.mid_area .mid_main .mid_main_lf .mid_main_lfJz span:nth-of-type(1) span {
+  position: relative;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  background: url(../image/icon/more.png) no-repeat;
+}
+.mid_area .mid_main .mid_main_lf .mid_main_lfJz span:nth-of-type(2) {
+  display: none;
+}
+.mid_area .mid_main .mid_main_lf .mid_main_lfJz span:nth-of-type(2) span {
+  position: relative;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  text-indent: 2em;
+  background: url(../image/icon/loading-icon.gif) no-repeat;
+}
+.mid_area .mid_main .mid_main_rg {
+  width: 275px;
+  float: left;
+  margin-left: 20px;
+}
+.mid_area .mid_main .mid_main_rg .mid_main_rgOne span {
+  font-size: 12px;
+  color: #aeaba4;
+}
+.mid_area .mid_main .mid_main_rg .mid_main_rgOne span:nth-of-type(1) {
+  font-size: 16px;
+  border-left: 3px solid #f8572b;
+  padding-left: 25px;
+  color: black;
+}
+.mid_area .mid_main .mid_main_rg .mid_main_rgOne img {
+  margin-top: 15px;
+}
+.mid_area .mid_main .mid_main_rg .mid_main_rgOne p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+.mid_area .mid_main .mid_main_rg .mid_main_rgTwo {
+  margin-top: 50px;
+}
+.mid_area .mid_main .mid_main_rg .mid_main_rgTwo p {
+  font-size: 16px;
+  border-left: 3px solid #f8572b;
+  padding-left: 25px;
+  color: black;
+}
+.mid_area .mid_main .mid_main_rg .mid_main_rgTwo div {
+  border-radius: 8px;
+  background-color: #ebebeb;
+  overflow: hidden;
+}
+.mid_area .mid_main .mid_main_rg .mid_main_rgTwo div img {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  float: left;
+}
+.mid_area .mid_main .mid_main_rg .mid_main_rgTwo div span {
+  font-size: 14px;
+  color: #aeaba4;
+  float: left;
+}
+.mid_area .mid_main .mid_main_rg .mid_main_rgTwo div span:nth-of-type(1) {
+  margin: 40px 0 0 50px;
+}
+.mid_area .mid_main .mid_main_rg .mid_main_rgTwo div span:nth-of-type(2) {
+  margin-left: 40px;
+}

@@ -1,0 +1,206 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-09-14 08:10:21
+ * @LastEditTime: 2020-09-14 14:42:50
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \VS_Codec:\Users\Administrator\Desktop\jia\public_footer.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>导购</title>
+    <link rel="stylesheet" href="./css/public_head.css">
+    <link rel="stylesheet" href="./css/guid.css">
+    <script src="./js/jquery-3.5.1.js"></script>
+</head>
+
+<body>
+    <!-- 遮盖 -->
+    <div class="login_zz" hidden></div>
+    <!-- 网页头部~  -->
+    <header class="head_total">
+        <div class="head_main clearfix">
+            <div class="head_img"><a href="index.html"><img src="./image/img/logonew.png" alt="#"></a></div>
+            <ul>
+                <li class="head_li"><a href="./index.html">首页</a></li>
+                <li><a href="./play.html">酷玩</a></li>
+                <li><a href="./guid.html" id="clicked">导购</a></li>
+                <li><a href="./help.html">试用</a></li>
+                <li><a href="./report.html">报告</a></li>
+            </ul>
+            <a href="regist.html" class="head_register">注册<a>
+            <a href="#" class="head_login">登录</a>
+            <div class="head_question"></div>
+            <!-- 登录弹出窗 -->
+            <div class="login" hidden>
+                <div class="login_left">
+                    <h2>
+                        极果账号登录
+                    </h2>
+                    <input id="phone" type="text" placeholder="手机号码" autocomplete="off">
+                    <input id="password" type="password" placeholder="密码">
+                    <div>
+                        <input type="checkbox" id="checkbox"><span>下次自动登录</span>
+                        <button id="login">登录</button>
+                    </div>
+                    <div class="rember">
+                        <a href="regist.html">注册新账号</a>
+                        <a href="#">忘记密码？</a>
+                    </div>
+                </div>
+                <div class="login_right">
+                    <img id="closd" src="./image/icon/clos.png" alt="">
+                    <h3>社交网络账号登录</h3>
+                    <img class="weixin" src="./image/icon/weixin_code.png" alt="">
+                    <div class="fenxiang">
+                        <a href="#" class="weibo">微博</a>
+                        <a href="#" class="qq">QQ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 网页中部 -->
+    <section>
+    
+     <!-- 导购清单 -->
+     <div class="lead">
+        <p>导购清单</p>
+        <div class="list">
+            <!-- bottom类名控制下边框 -->
+            <div class="new bottom">最新</div>
+            <div class="hot">最热</div>
+        </div>
+    </div>
+
+    <!-- 网页主体 -->
+    <div class="main">
+      
+      <div>
+        <ul id="new"></ul>
+        <!-- <li>
+            <img src="./imgs/img/hot4.jpg" alt="" width="220px">
+            <p>Osprey小鹰户外运动专业腰包</p>
+            <span>5</span>
+            <span>3</span>
+        </li> -->
+         
+      </div>
+      <div id="hot">
+        
+    </div>
+    <div class="new_more"></div>
+</div>
+    </section>
+
+    <div class="main_more">
+        <p class="nomain_loading">点击加载更多</p> 
+     </div>
+    <!-- 网页底部 -->
+    <footer class="footer_total">
+        <div class="footer_main clearfix">
+            <div class="footer_picture">
+                <img src="./image/img/code.png" alt="#" class="footer_erweima">
+            </div>
+            <div class="footer_nav">
+                <dl>
+                    <dt><img src="./image/img/logoImg.jpg" alt="#"></dt>
+                    <dd><a href="#">全球酷玩试用导购平台</a></dd>
+                    <dd class="footer_jian"><a href="#">酷·新奇·好玩·品质</a></dd>
+                    <dd><a href="#">微信添加"JguoJguo"</a></dd>
+                    <dd><a href="#">获取我们的服务</a></dd>
+                </dl>
+                <dl>
+                    <dt>免费试用</dt>
+                    <dd><a href="#">试用流程</a></dd>
+                    <dd><a href="#">如何提高成功率</a></dd>
+                </dl>
+                <dl class="footer_dl_1">
+                    <dt>友情链接</dt>
+                    <dd><a href="#">智东西</a></dd>
+                    <dd><a href="#">搜狐IT</a></dd>
+                    <dd><a href="#">搜狐数码</a></dd>
+                    <dd><a href="#">凤凰数码</a></dd>
+                    <dd><a href="#">泡泡网</a></dd>
+                    <dd><a href="#">ZUK社区</a></dd>
+                    <dd><a href="#">极客公园</a></dd>
+                    <dd><a href="#">果库</a></dd>
+                </dl>
+                <dl class="footer_dl_2">
+                    <dd><a href="#">WEIBUSI</a></dd>
+                    <dd><a href="#">腾讯科技</a></dd>
+                    <dd><a href="#">凤凰科技</a></dd>
+                    <dd><a href="#">PConline</a></dd>
+                    <dd><a href="#">3W咖啡</a></dd>
+                    <dd><a href="#">亿觅emie</a></dd>
+                    <dd><a href="#">易迅易启玩</a></dd>
+                </dl>
+                <dl>
+                    <dt>购买攻略</dt>
+                    <dd><a href="#">美亚海淘教程</a></dd>
+                    <dd><a href="#">日亚海淘教程</a></dd>
+                    <dd><a href="#">海淘转运攻略</a></dd>
+                    <dd><a href="#">kickstarter众筹购买攻略</a></dd>
+                    <dd><a href="#">indiegogo众筹购买攻略</a></dd>
+                </dl>
+                <dl>
+                    <dt>厂商合作</dt>
+                    <dd><a href="./about.html">关于极果</a></dd>
+                    <dd><a href="./about.html">联系我们</a></dd>
+                    <dd><a href="./about.html">商务合作：BD@jiguo.com</a></dd>
+                    <dd><a href="./about.html">CEO邮箱：CED@jiguo.com</a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="footer_btm">
+            &copy:2016 极果版权所有
+        </div>
+        <div class="footer_return">
+
+        </div>
+    </footer>
+    <script src="./js/doT.min.js"></script>
+ <!-- 最新模板 -->
+ <script id="newone" type="text/x-dot-template">
+   
+    {{for(var i in it){}} 
+<li>
+    <img src="{{=it[i].img}}" width="225px" height="130px">
+    <p>{{=it[i].text}}</p>
+    <span>{{=it[i].words}}</span>
+    <span>{{=it[i].like}}</span>
+</li>
+{{}}}
+</script>
+
+<!-- 最热模板 -->
+<script id="hotone" type="text/x-dot-template">
+    {{~it:value:index}} 
+<li>
+    <img src="{{=value.img}}" width="225px" height="130px">
+    <p>{{=value.text}}</p>
+    <span>{{=value.words}}</span>
+    <span>{{=value.like}}</span>
+</li>
+{{~}} 
+</script>
+<script id="more_more" type="text/x-dot-template">
+    {{~it:value:index}} 
+<li>
+    <img src="{{=value.img}}" width="225px" height="130px">
+    <p>{{=value.text}}</p>
+    <span>{{=value.words}}</span>
+    <span>{{=value.like}}</span>
+</li>
+{{~}} 
+</script>
+<script src="./js/adress.js"></script>
+<script src="./js/guid.js"></script>
+<script src="./js/public_head.js"></script>
+</body>
+
+</html>

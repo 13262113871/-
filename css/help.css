@@ -1,0 +1,128 @@
+.shiyong_main {
+    text-align: center;
+}
+.shiyong_main>.free_1 {
+    margin: 42px 0;
+    font-size: 37px;
+    color: #202e3b;
+}
+.free_2 {
+    width: 100%;
+    border-bottom: 1px solid #f2f2f2;
+    text-align: center; 
+}
+.free_2_1 {
+    list-style: none;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+} 
+.free_2_1 li {
+    float: left;
+    padding: 0px 48px 9px 48px;
+    font-size: 16px;
+    color: #bfb6d3;
+    cursor: pointer;
+}
+.free_2_1>.li_active_1 {
+    border-bottom: 4px solid #fe5339;
+    color: #fe5339;
+}
+.free_3_1 {
+    list-style: none;
+    width: 545px;
+    margin: 0 auto;
+}
+.free_3_1 li {
+    float: left;
+    padding: 16px 4px;
+    margin-right: 112px;
+    font-size: 16px;
+    color: #bfb6d3;
+    cursor: pointer;
+}
+.free_3_1 li:nth-child(4) {
+    margin-right: 0px;
+}
+.free_3_1>.li_active_2 {
+    color: #393532;
+}
+.free_4 {
+    background-color: #f7f7f7;
+}
+.free_4>.free_4_1 {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 27px;
+}
+.free_4_1>ul {
+    list-style: none;
+    width: 1000px;
+    overflow: hidden;
+}
+.free_4_1>ul>li {
+    position: relative;
+    float: left;
+    margin-right: 37px;
+    margin-bottom: 36px;
+    border: 2px solid #e6e6e6;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 222px;
+    height: 288px;
+    text-align: center;
+}
+.free_4_1>ul>li>a>.free_img_1 {
+    height: 130px;
+    width: 218px;
+}
+.free_4_1>ul>li>.free_p1 {
+    margin-top: 9px;
+    height: 44px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.free_4_1>ul>li>.free_p1>a {
+    text-decoration: none;
+    color: #292327;
+}
+.free_4_1>ul>li>div>a {
+    display: inline-block;
+    margin: 4px 6px;
+    text-decoration: none;
+    padding: 7px 9px;
+    font-size: 9px;
+    font-weight: 700;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
+}
+.free_4_1>ul>li>span {
+    color: #ff6072;
+}
+.free_4_1>ul>li>.free_p2 {
+    margin-top: 8px;
+    font-size: 12px;
+}
+.free_4_1>ul>li>.free_p2>span {
+    color: #ff6072;
+}
+.free_4_1>ul>li>.free_span_1 {
+    margin-top: 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.free_4_1>ul>li>.free_img_2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#free_list li:nth-of-type(4n+4) {
+    margin-right: 0px;
+}
+#free_more_more li:nth-of-type(4n+4) {
+    margin-right: 0px;
+}
+li img:hover{
+    transform: scale(1.2);
+}
